@@ -11,7 +11,7 @@ import retrofit2.http.PUT
 import retrofit2.http.Path
 
 
-const val KEY = "key=4e0ac02e86a81dc063fcef2ab3bab12e2e4e588c"
+const val KEY = "key=123456789"
 interface RedmineApiService {
 
     @GET("issues.json?$KEY")
